@@ -7,6 +7,6 @@ function App() {
       <Search />
     </div>
   );
-}
+};
 
 export default App;
