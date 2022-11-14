@@ -7,6 +7,10 @@ function App() {
     console.log(searchData)
   };
 
+  const loadOptions = (inputValue) => {
+    
+  };
+
   return (
     <div className="container">
       <Search onSearchChange={handleOnSearchChange} />

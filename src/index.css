@@ -3,7 +3,7 @@ body {
   font-family: "Roboto", Arial !important;
   -webkit-font-smoothing: antialised;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #d5d4d4;
+  background-color: #d5d4d4; /*Cloudy aspect. Better than plain white*/
 }
 
 code {
