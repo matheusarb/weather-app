@@ -11,12 +11,17 @@ const Search = ({onSearchChange}) => {
     onSearchChange(searchData);
   };
 
+  const loadOptions = () => {
+
+  };
+
   return (
     <AsyncPaginate
       placeholder="Search for City"
       debounceTimeout={600} /*prevent user to push search button very fast and stack multiple requests*/
       value={search}
       onChange={handleOnChange}
+      loadOptions={loadOptions}
     />
   );
 };
