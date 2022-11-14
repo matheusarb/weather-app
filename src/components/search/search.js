@@ -1,7 +1,6 @@
-// will utilize the async package installed
 import React from "react";
 import { useState } from "react";
-import { AsyncPaginate } from "react-select-async-paginate";
+import { AsyncPaginate } from "react-select-async-paginate"; // async package installed for city search
 
 const Search = () => {
   
@@ -9,10 +8,8 @@ const Search = () => {
 
   return (
     <AsyncPaginate
-      placeholder="Search for city"
-      debounceTimeout={
-        600
-      } /*prevent user to push search button very fast and stack multiple requests*/
+      placeholder="Search for City"
+      debounceTimeout={600} /*prevent user to push search button very fast and stack multiple requests*/
       value={search}
     />
   );
