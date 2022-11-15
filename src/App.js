@@ -32,7 +32,7 @@ function App() {
 
   console.log(forecast);
 
-  const loadOptions = (inputValue) => {};
+  // const loadOptions = (inputValue) => {};
 
   return (
     <div className="container">
@@ -46,4 +46,3 @@ function App() {
 export default App;
 
 //CurrentWeather component inside curly braces to checks if currentweather data is there (returns something)
-//Same check logic applies to the Forecast component  
