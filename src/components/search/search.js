@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { AsyncPaginate } from "react-select-async-paginate"; // async package installed for city search
-import { geoApiOptions, GEO_API_URL } from "../api"; // import the two methods from the same file
+import { geoApiOptions, GEO_API_URL } from "../../api"; // import the two methods from the same file
 
 const Search = ({ onSearchChange }) => {
   const [search, setSearch] = useState(null);
